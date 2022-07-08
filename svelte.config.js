@@ -1,10 +1,4 @@
-import adapter from '@sveltejs/adapter-netlify';
-
-export default {
-  kit: {
-    adapter: adapter()
-  }
-};
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
